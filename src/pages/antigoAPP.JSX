@@ -7,7 +7,7 @@ import Componente03 from './Componentes/Componente03'
 
 function App() {
   let linguagem = "JAVASCRIPTs";
-  let valorCarro = "Chevrolet"
+  let valorFoguete = "SLS"
 
 
   function clicouBotao() {

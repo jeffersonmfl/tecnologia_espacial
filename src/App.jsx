@@ -18,14 +18,14 @@ function App() {
     <>
     <Button onClick={mudarTheme}><img src="./brilho-do-sol.png" alt="" width={20} height={20} /></Button>
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
-    <h1>CONFIGURAÇÃO DE UM LOGO</h1>
+    <h1>Evolução da tecnologia espacial</h1>
       <hr/>
       <Container>
       <BrowserRouter>
         <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/sobre' element={<Sobre />} />
-              <Route path='/listaCarros' element={<ListaCarros />} />
+              <Route path='/listafoguetes' element={<ListaCarros />} />
               <Route path='/cep' element={<Cep/>} />
         </Routes>
       </BrowserRouter>

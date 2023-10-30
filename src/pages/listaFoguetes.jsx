@@ -1,14 +1,14 @@
 import Menu from '../Components/menu'
-import listaDeFoguetes from '../Components/Foguetes';
+import ListaDeFoguetes from '../Components/Foguetes'; 
 
-function listaDeFoguetes (){
-    let carroAray=['Fusca','Celta','Uno']
+function ListaFoguetes (){
+    let fogueteAray=['Fusca','Celta','Uno']
     return(
         <>
         <Menu/>
         <hr/>
-        <listaDeFoguetes carroValorPai={carroAray}></listaDeFoguetes>
+        <ListaDeFoguetes fogueteValorPai={fogueteAray}></ListaDeFoguetes>
         </>
     )
 }
-export default listaDeFoguetes;
+export default ListaFoguetes;

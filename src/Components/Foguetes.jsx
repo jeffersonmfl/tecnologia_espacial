@@ -1,11 +1,11 @@
-function Tipofoguetes(props){
+function listaDeFoguetes(props){
     return (
         <>
         <h1>Lista de Foguetes</h1>
         <ul>
-            <li>{props.carroValorPai[0]}</li>
-            <li>{props.carroValorPai[1]}</li>
-            <li>{props.carroValorPai[2]}</li>
+            <li>{props.fogueteValorPai[0]}</li>
+            <li>{props.fogueteValorPai[1]}</li>
+            <li>{props.fogueteValorPai[2]}</li>
         </ul>
         </>
     )
