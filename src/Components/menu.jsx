@@ -16,7 +16,7 @@ function Menu() {
             <nav style={menu}>
                 <ul style={{ display: 'flex', listStyle: 'none' }}>
                     <li><a href="/" style={link}>HOME</a>  </li>
-                    <li><a href="/listafoguetes" style={link}>LISTA FOGUETES</a>  </li>
+                    <li><a href="/listafoguetes" style={link}>LISTA SONDAS</a>  </li>
                     <li><a href="/sobre"style={link} >SOBRE</a>  </li>
                     <li><a href="/cep"style={link} >CEP</a>  </li>
                 </ul>

@@ -15,7 +15,7 @@ export default () => {
         feita de alumínio com 58 centímetros de diâmetro e pesava cerca de 83 kg."
       </p>
       <div style={{ display: 'flex' }}>
-        <img src="./sputnik.png" alt="" />
+        <img src="./sputnik.png" width={300}/>
         <p>
           "Os soviéticos continuaram inovando e, um mês depois, realizaram o lançamento do Sputnik 2, que pesava 508 kg e foi responsável por
           levar o primeiro ser vivo para o espaço. Nessa ocasião, os soviéticos enviaram ao espaço a cadela Laika, que morreu 10 dias depois
@@ -25,13 +25,33 @@ export default () => {
         </p>
       </div>
       <h2> Resposta da NASA</h2>
-      <img src="./nasa.png" centre/>
-      <p>"Em resposta ao lançamento dos Sputnik 1 e 2 realizado pelos soviéticos, os Estados Unidos anunciaram o lançamento de seu próprio satélite 
-        artificial. Assim, os americanos lançaram o Explorer 1, no dia 31 de janeiro de 1958. Esse satélite foi responsável por descobrir uma região
-         radiativa ao redor da Terra. Essa região ficou conhecida como Cinturão de Van Allen. O Explorer 1 parou de enviar sinais cerca de quatro meses 
-         depois e entrou na atmosfera somente em março de 1970. Em seguida, ainda como parte da reação americana aos lançamentos soviéticos, foi criada 
-         a National Aeronautics Space Administration, mais conhecida como NASA. Sua criação aconteceu no dia 29 de julho de 1958, durante o governo de 
-         Dwight D. Eisenhower (1953-1961)."</p>
+      <div style={{ display: 'flex' }}>
+        <img src="./nasa.png" width={300}/>
+        <p>"Em resposta ao lançamento dos Sputnik 1 e 2 realizado pelos soviéticos, os Estados Unidos anunciaram o lançamento de seu próprio satélite 
+          artificial. Assim, os americanos lançaram o Explorer 1, no dia 31 de janeiro de 1958. Esse satélite foi responsável por descobrir uma região
+          radiativa ao redor da Terra. Essa região ficou conhecida como Cinturão de Van Allen. O Explorer 1 parou de enviar sinais cerca de quatro meses 
+          depois e entrou na atmosfera somente em março de 1970. Em seguida, ainda como parte da reação americana aos lançamentos soviéticos, foi criada 
+          a National Aeronautics Space Administration, mais conhecida como NASA. Sua criação aconteceu no dia 29 de julho de 1958, durante o governo de 
+          Dwight D. Eisenhower (1953-1961)." "Outro acontecimento importante da corrida espaço deu-se com o lançamento de Lunik 1, uma sonda que foi lançada 
+          em 2 de janeiro de 1959. Cerca de 34 horas depois, a sonda tinha passado pela Lua e, depois disso, entrou na órbita do Sol, sendo a primeira sonda a
+          orbitar essa estrela. Uma segunda sonda foi lançada em 12 de setembro de 1959, e a terceira foi lançada no dia 4 de outubro de 1959."</p>
+      </div>
+      
+
+      <h3>Fim da corrida espacial</h3>
+      <div  style={{ display: 'flex' }}>
+        <img src="./Guerra Fria.jpg" width={300}/>
+          <p>"Considera-se o fim da corrida espacial, a missão conjunta realizada por americanos e soviéticos em 17 de julho de 1975. Na ocasião, uma nave 
+            americana e uma soviética acoplaram-se na órbita terrestre. As naves que participaram dessa missão conjunta foram Apollo 18, do lado americano, 
+            e Soyuz 19, do lado soviético.
+            Os astronautas envolvidos foram Thomas P. Stafford, Vance D. Brand, Donald K. Slayton, Alexei Leonov e Valeri Kubasov. Esse acontecimento marcou
+             o fim da disputa espacial e deu início a um processo de reaproximação e cooperação científica entre as nações na questão espacial."</p>
+      </div>
+
+
+
+
+
     </>
   );
 };
